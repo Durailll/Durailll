@@ -417,3 +417,17 @@ DoorOpen.OnEnter.Add(function(player) {
   player.Ui.Hint.Value = "вы открыли дверь"; 
   } 
 });
+
+
+var lolTrigger =  AreaPlayerTriggerService.Get("LOLTrigger")
+
+lolTrigger.Tags = [LOLAreasTag];  
+lolTrigger.Enable = true;  
+lolTrigger.OnEnter.Add(function (player)         { player.Ui.Hint.Value = "ТЫ ПОЛУЧИЛ ВСЕ БЛОКИ=)";player.Properties.Immortality.Value = false;  
+Spawns.GetContext().enable = true;  
+lolTrigger.Enable = true;  
+Player.inventory.Main.Value = true;  
+Player.inventory.MainInfinity.Value = true;  
+Player.inventory.Main.BlocksSet.Value = true;  
+lolTrigger.Enable = true;  
+}); 
