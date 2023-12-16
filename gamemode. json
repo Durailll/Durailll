@@ -1,1 +1,58 @@
-dy
+{
+  "Name": "PVP ARENA",
+  "Description": "битва 1v1, нужен адм который будет сопровождать",
+  "StartClientVersion": 334,
+  "MapLists": [
+    {
+      "MapListId": 324,
+      "Name": "Официальные карты"
+    }
+  ],
+  "Parameters": {
+    "Bool": [
+      {
+        "Name": "Damage",
+        "DisplayName": "GmParams/Damage"
+      },
+      {
+        "Name": "PartialDesruction",
+        "DisplayName": "GmParams/PartialDesruction"
+      },
+      {
+        "Name": "LoosenBlocks",
+        "DisplayName": "GmParams/LoosenBlocks"
+      },
+      {
+        "Name": "RedTeam",
+        "DisplayName": "Teams/Red",
+        "Default": true
+      },
+      {
+        "Name": "BlueTeam",
+        "DisplayName": "Teams/Blue",
+        "Default": true
+      },
+      {
+        "Name": "BlueHasNothing",
+        "DisplayName": "GmParams/BlueHasNothing"
+      },
+      {
+        "Name": "FloodFill",
+        "DisplayName": "GmParams/FloodFill"
+      },
+      {
+        "Name": "FillQuad",
+        "DisplayName": "GmParams/FillQuad"
+      },
+      {
+        "Name": "RemoveQuad",
+        "DisplayName": "GmParams/RemoveQuad"
+      },
+      {
+        "Name": "Fly",
+        "DisplayName": "GmParams/Fly",
+        "Default": true
+      }
+    ]
+  }
+}
