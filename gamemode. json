@@ -1,6 +1,6 @@
 {
-  "Name": "PVP ARENA",
-  "Description": "битва 1v1, нужен адм который будет сопровождать",
+  "Name": "ПЕРЕСТРЕЛКА test",
+  "Description": "выживай в городе! ",
   "StartClientVersion": 334,
   "MapLists": [
     {
