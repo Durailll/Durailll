@@ -1,11 +1,11 @@
 {
-  "Name": "ПЕРЕСТРЕЛКА test",
-  "Description": "выживай в городе! ",
+  "Name": "<color=Blue>ПОКУПКИ</color>",
+  "Description": "получай монеты и покупай в магазине инвентарь",
   "StartClientVersion": 334,
   "MapLists": [
     {
-      "MapListId": 324,
-      "Name": "Официальные карты"
+      "MapListId":12707,
+      "Name": "карты для режима"
     }
   ],
   "Parameters": {
