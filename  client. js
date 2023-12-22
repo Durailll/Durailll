@@ -418,7 +418,7 @@ DoorOpen.OnEnter.Add(function(player) {
   } 
 });
 
-
+//бан
 var ttTrigger =  AreaPlayerTriggerService.Get("ttTrigger")
 
 ttTrigger.Tags = [ttAreasTag];  
